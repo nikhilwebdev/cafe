@@ -1,0 +1,204 @@
+/*normal*/
+span{
+  color: white;
+}
+.third{
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+
+}
+.foot{
+  height: 3vh;
+  width: 100vw;
+  background-color: white;
+}
+.second{
+  display: flex;
+  flex-direction: row;
+  height: 125vh;
+
+
+}
+.fir{
+  background-color: #FF6363;
+  height: 125vh;
+  width: 50vw;
+}
+.sec{
+  background-color: gold;
+  height: 125vh;
+  width: 50vw;
+
+}
+body{
+  margin: 0px 0px;
+  height: 100vh;
+  width: 100vw;
+
+}
+.navbar{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+  margin-right: 0px;
+  background-color: lightblue;
+  width: 100vw;
+  height: 90px;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+  top: 0;
+}
+a{
+  padding-left: 5%;
+  padding-right: 5%;
+  text-decoration: none;
+  color: black;
+  font-weight:600;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+{
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Kumar One Outline', cursive;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+
+/*transition*/
+.main:hover h1{
+  position: sticky;
+  transform:  translateX(-40%);
+  font-variant: small-caps;
+  font-size: 7rem;
+  margin-bottom:5.25rem;
+}
+.main:hover .new{
+  transform: rotate(-45deg);
+}
+
+.second:hover .red{
+  transform: translateX(38%);
+}
+.second:hover .gold{
+  transform: translateX(-36%);
+}
+.third:hover .bike{
+  transform: translateX(800%);
+}
+.third:hover .del{
+  transform: translateX(100%);
+}
+
+
+
+/**most used**/
+
+.new{
+  transition: transform 3s;
+  z-index: auto;
+  position: relative;
+  top:3rem;
+
+}
+
+.container{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100vw;
+  top: 90px;
+  margin-right: 0px;
+
+}
+.main{
+  position: relative;
+  text-align: center;
+  height: 50vh;
+  background-color: white;
+}
+
+h1{
+  color: black;
+  position: sticky;
+  margin: 0px 0px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 11rem;
+  transition: transform 3s;
+  z-index: auto;
+}
+
+.cup{
+  position: relative;
+  left: 31rem;
+  top: 30rem;
+}
+
+
+.cof{
+  position: relative;
+  bottom: 12rem;
+  left: 25.7rem;
+  margin-top: 0px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 7.5rem;
+  font-weight: bolder;
+  animation-duration: 5s;
+}
+.red{
+  position: relative;
+  top: 25%;
+  color: white;
+  font-size: 3rem;
+  font-family: 'Sacramento', cursive;
+  transition: transform 1.5s;
+}
+.gold{
+  position: relative;
+  top: 85%;
+  color: black;
+  font-size: 3rem;
+  font-family: 'Sacramento', cursive;
+  transition: transform 1.5s;
+}
+.author{
+  position: relative;
+  top: 83%;
+  right:30%;
+  color: black;
+  font-size: 1.5rem;
+  font-family: 'Sacramento', cursive;
+
+}
+.third{
+  background-image: url("sroad.jpg");
+  background-size: cover;
+}
+.bike{
+  position: relative;
+  top: 25%;
+  margin-left: -115%;
+  height: 20rem;
+  width: 20rem;
+  transition: transform 6s ease-in;
+}
+.del{
+  margin: 0px 0px;
+  position: relative;
+  font-size: 200px;
+  font-weight: 600;
+  font-family: 'Bebas Neue', cursive;
+  right: 99%;
+  transition: transform 6s;
+  font-variant: small-caps;
+}
+
+.pad{
+  padding-top: 30%;
+}
